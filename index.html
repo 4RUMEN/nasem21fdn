@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roda da Memória FDN - NASEM 2021</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .wheel-container {
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+        .wheel {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .slice {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            left: 50%;
+            top: 50%;
+            transform-origin: 0% 0%;
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+        }
+        .content {
+            position: absolute;
+            left: 30px;
+            right: 0;
+            text-align: left;
+            padding-right: 20px;
+        }
+        .letter {
+            font-weight: bold;
+            color: #4CAF50;
+            margin-right: 5px;
+        }
+        .center {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #4CAF50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="wheel-container">
+        <div class="wheel">
+            <div class="center">FDN<br>NASEM 2021</div>
+            <div class="slice" style="transform: rotate(0deg);"><div class="content"><span class="letter">A</span> Absorção</div></div>
+            <div class="slice" style="transform: rotate(13.85deg);"><div class="content"><span class="letter">B</span> Balanço energético</div></div>
+            <div class="slice" style="transform: rotate(27.7deg);"><div class="content"><span class="letter">C</span> Carboidratos estruturais</div></div>
+            <div class="slice" style="transform: rotate(41.55deg);"><div class="content"><span class="letter">D</span> Digestibilidade</div></div>
+            <div class="slice" style="transform: rotate(55.4deg);"><div class="content"><span class="letter">E</span> Efetividade física</div></div>
+            <div class="slice" style="transform: rotate(69.25deg);"><div class="content"><span class="letter">F</span> Fermentação ruminal</div></div>
+            <div class="slice" style="transform: rotate(83.1deg);"><div class="content"><span class="letter">G</span> Granulometria</div></div>
+            <div class="slice" style="transform: rotate(96.95deg);"><div class="content"><span class="letter">H</span> Hemicelulose</div></div>
+            <div class="slice" style="transform: rotate(110.8deg);"><div class="content"><span class="letter">I</span> Ingestão de matéria seca</div></div>
+            <div class="slice" style="transform: rotate(124.65deg);"><div class="content"><span class="letter">J</span> Jejum</div></div>
+            <div class="slice" style="transform: rotate(138.5deg);"><div class="content"><span class="letter">K</span> Cinética ruminal</div></div>
+            <div class="slice" style="transform: rotate(152.35deg);"><div class="content"><span class="letter">L</span> Lignina</div></div>
+            <div class="slice" style="transform: rotate(166.2deg);"><div class="content"><span class="letter">M</span> Mastigação</div></div>
+            <div class="slice" style="transform: rotate(180.05deg);"><div class="content"><span class="letter">N</span> Nutrientes</div></div>
+            <div class="slice" style="transform: rotate(193.9deg);"><div class="content"><span class="letter">O</span> Oxidação</div></div>
+            <div class="slice" style="transform: rotate(207.75deg);"><div class="content"><span class="letter">P</span> pH ruminal</div></div>
+            <div class="slice" style="transform: rotate(221.6deg);"><div class="content"><span class="letter">Q</span> Qualidade da forragem</div></div>
+            <div class="slice" style="transform: rotate(235.45deg);"><div class="content"><span class="letter">R</span> Ruminação</div></div>
+            <div class="slice" style="transform: rotate(249.3deg);"><div class="content"><span class="letter">S</span> Saciação</div></div>
+            <div class="slice" style="transform: rotate(263.15deg);"><div class="content"><span class="letter">T</span> Tempo de retenção</div></div>
+            <div class="slice" style="transform: rotate(277deg);"><div class="content"><span class="letter">U</span> Utilização de nutrientes</div></div>
+            <div class="slice" style="transform: rotate(290.85deg);"><div class="content"><span class="letter">V</span> Volumoso</div></div>
+            <div class="slice" style="transform: rotate(304.7deg);"><div class="content"><span class="letter">W</span> Well-being (bem-estar)</div></div>
+            <div class="slice" style="transform: rotate(318.55deg);"><div class="content"><span class="letter">X</span> Xilanase</div></div>
+            <div class="slice" style="transform: rotate(332.4deg);"><div class="content"><span class="letter">Y</span> Yield (produção de leite)</div></div>
+            <div class="slice" style="transform: rotate(346.25deg);"><div class="content"><span class="letter">Z</span> Zootecnia de precisão</div></div>
+        </div>
+    </div>
+</body>
+</html>
